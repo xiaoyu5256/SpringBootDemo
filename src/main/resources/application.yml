@@ -1,4 +1,4 @@
-  spring:
+spring:
     jpa:
         database: MYSQL
         hibernate:
@@ -9,3 +9,7 @@
         username: root
         password: 
         driver-class-name: com.mysql.jdbc.Driver
+        
+    devtools:
+        restart:
+            exclude:static/**,public/**
